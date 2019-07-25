@@ -28,7 +28,7 @@ public class UserController {
      * */
     @RequestMapping("userList")
     public Object list(){
-        System.out.println("111");
+        System.out.println("123");
         return userService.getList();
     }
 
